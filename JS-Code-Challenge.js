@@ -46,3 +46,9 @@ console.log('My favorite animal:' + favoriteAnimal);
 const myName = 'Belle';
 const myCity = 'Paris';
 console.log(`My name is ${myName}. My favorite city is ${myCity}.`)
+
+// typeof operator: check the data type of a variable’s value
+let newVariable = 'Playing around with typeof.';
+console.log(typeof newVariable);
+newVariable = 1;
+console.log(typeof newVariable);
