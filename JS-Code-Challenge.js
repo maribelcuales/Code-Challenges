@@ -52,3 +52,10 @@ let newVariable = 'Playing around with typeof.';
 console.log(typeof newVariable);
 newVariable = 1;
 console.log(typeof newVariable);
+
+// If Statement 
+let sale = true;
+sale = false;
+if (sale) {
+  console.log('Time to buy!');
+}
