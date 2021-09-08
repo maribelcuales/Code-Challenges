@@ -59,3 +59,14 @@ sale = false;
 if (sale) {
   console.log('Time to buy!');
 }
+
+// If...Else Statements - allow us to automate solutions to yes-or-no questions, also known as binary decisions.
+
+let sale = true;
+sale = false;
+
+if (sale) {
+  console.log('Time to buy!');
+} else {
+  console.log('Time to wait for a sale.');
+}
