@@ -107,3 +107,10 @@ if (favoritePhrase) {
 } else {
   console.log('This string is definitely empty.');
 }
+
+// Truthy and Falsy Assignment 
+// Use short circuit evaluation to assign  writingUtensil variable below:
+let tool = 'marker';
+let writingUtensil = tool || 'pen';
+
+console.log(`The ${writingUtensil} is mightier than the sword.`);
