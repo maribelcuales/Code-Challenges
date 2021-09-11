@@ -26,9 +26,19 @@ print(meal)
 
 # Errors: SyntaxError and NameError 
 # SyntaxError
-print('This message has mismatched quote marks!")
+# print('This message has mismatched quote marks!")
 # NameError 
-print(Abracadabra)
+# print(Abracadabra)
+
+# int (var whole number) | float (var decimal) | literal (actual number) 
+# Define the release and runtime integer variables below:
+release_year = 2021
+runtime = 180 
+
+# Define the rating_out_of_10 float variable below: 
+rating_out_of_10 = 9.5
+
+
 
 
 
