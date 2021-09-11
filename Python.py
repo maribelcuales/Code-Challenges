@@ -24,3 +24,13 @@ print("Dinner:")
 print(meal)
 
 
+# Errors: SyntaxError and NameError 
+# SyntaxError
+print('This message has mismatched quote marks!")
+# NameError 
+print(Abracadabra)
+
+
+
+
+
