@@ -92,3 +92,18 @@ string6 = "from which it wafted the most delightful scent of flowers and hay."
 # Define message below:
 message = string1 + string2 + string3 + string4 + string5 + string6 
 print(message)
+
+
+# Plus Equals +=
+total_price = 0
+
+new_sneakers = 50.00
+total_price += new_sneakers
+# Additional items to buy
+nice_sweater = 39.00
+fun_books = 20.00
+# Update total_price here: 
+total_price += nice_sweater + fun_books
+# Prints "The total price is 109.0"
+print("The total price is", total_price)
+
