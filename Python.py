@@ -40,9 +40,19 @@ rating_out_of_10 = 9.5
 
 
 # Calculations
+# ZeroDivisionError => dividing a number by zero has no defined value, so Python treats this as an error condition
 # prints our 1700.4642857142858
 print(25 * 68 + 13 / 28)
 
 
+# Changing Numbers
+quilt_width = 8 
+quilt_length = 12
+# Prints "96"
+print(quilt_width * quilt_length )
+
+quilt_length = 8
+# Prints "64"
+print(quilt_width * quilt_length )
 
 
