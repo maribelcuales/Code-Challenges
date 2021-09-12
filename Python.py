@@ -116,3 +116,16 @@ And why should I not speak to you?
 """
 print(to_you)
 
+
+# Review Python - Hello World
+my_age = 40
+half_my_age = 40 / 2
+greeting = "Hello there! I'm "
+name = "Belle"
+greeting_with_name = greeting + name + "."
+
+print(my_age)  # Prints "40" 
+print(half_my_age)  # Prints "20.0"
+# Prints "Hello there! I'm Belle."
+print(greeting_with_name) 
+
