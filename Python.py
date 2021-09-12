@@ -39,7 +39,9 @@ runtime = 180
 rating_out_of_10 = 9.5
 
 
-
+# Calculations
+# prints our 1700.4642857142858
+print(25 * 68 + 13 / 28)
 
 
 
