@@ -67,3 +67,14 @@ print(8 ** 2)
 
 # How many squares for 6 people to have 6 quilts each that are 6x6? => prints "1296"
 print(6 ** 2 * 6 * 6)
+
+
+# Modulo Operator % 
+# Gives the remainder of a  division. If the number is divisible, the result will be 0 
+my_team = 27 % 4
+# Prints "3"
+print(my_team)
+
+my_team = 28 % 4
+# Prints "0"
+print(my_team)
