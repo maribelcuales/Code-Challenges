@@ -129,3 +129,19 @@ print(half_my_age)  # Prints "20.0"
 # Prints "Hello there! I'm Belle."
 print(greeting_with_name) 
 
+
+# ASCII Art initials  
+print('M   M   CCC ')
+print('MM MM  C   C')
+print('MM MM  C')
+print('M M M  C')
+print('M   M  C')
+print('M   M  C')
+print('M   M   CCC ')
+
+
+# CONTROL FLOW 
+# Boolean Expressions
+
+
+
