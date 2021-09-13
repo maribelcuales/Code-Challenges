@@ -182,8 +182,8 @@ switch (athleteFinalPosition) {
 }
 
 
-/* ========== FUNCTIONS ========== */
 
+/* ========== FUNCTIONS ========== */
 // Arrow function with two arguments 
 const sum = (firstParam, secondParam) => { 
   return firstParam + secondParam; 
@@ -206,3 +206,21 @@ checkWeight(25); // Prints: Baggage weight : 25 kilograms.
 // Concise arrow functions
 const multiply = (a, b) => a * b; 
 console.log(multiply(2, 30)); // Prints: 60
+
+
+
+/* ========== ARRAYS ========== */
+// .push() => adds one or more elements to the array 
+//Adding a single element:
+const cart = ['apple', 'orange'];
+cart.push('pear'); 
+ 
+// Adding multiple elements:
+const numbers = [1, 2];
+numbers.push(3, 4, 5);
+
+// .pop() method removes the last element from an array and returns that element.
+const ingredients = ['eggs', 'flour', 'chocolate'];
+ 
+const poppedIngredient = ingredients.pop(); // 'chocolate'
+console.log(ingredients); // ['eggs', 'flour']
