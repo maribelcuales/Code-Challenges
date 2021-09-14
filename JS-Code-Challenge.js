@@ -239,13 +239,12 @@ while (i < 5) {
   i++;
 }
 
-// reverese loop
+// reverse loop
 const items = ['apricot', 'banana', 'cherry'];
  
 for (let i = items.length - 1; i >= 0; i -= 1) {
   console.log(`${i}. ${items[i]}`);
 }
-
 // Prints: 2. cherry
 // Prints: 1. banana
 // Prints: 0. apricot
@@ -260,7 +259,14 @@ do {
   console.log(x)
   i++;
 } while (i < 5);
- 
-// Prints: 0 1 3 6 10
+ // Prints: 0 1 3 6 10
+
+
+// for loop
+for (let i = 0; i < 4; i += 1) {
+  console.log(i);
+};
+ // Output: 0, 1, 2, 3
+
 
 
