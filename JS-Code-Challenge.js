@@ -269,4 +269,10 @@ for (let i = 0; i < 4; i += 1) {
  // Output: 0, 1, 2, 3
 
 
+// Looping through arrays
+for (let i = 0; i < array.length; i++){
+  console.log(array[i]);
+}
+// Output: Every item in the array
+
 
