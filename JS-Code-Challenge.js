@@ -251,3 +251,16 @@ for (let i = items.length - 1; i >= 0; i -= 1) {
 // Prints: 0. apricot
 
 
+// do...while statement 
+x = 0
+i = 0
+ 
+do {
+  x = x + i;
+  console.log(x)
+  i++;
+} while (i < 5);
+ 
+// Prints: 0 1 3 6 10
+
+
