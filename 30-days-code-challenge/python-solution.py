@@ -38,8 +38,8 @@ print(s + c)
 
 
 # ///////  Day 2: Operators  ///////
-#!/bin/python3
 
+#!/bin/python3
 import math
 import os
 import random
@@ -57,14 +57,24 @@ import sys
 
 def solve(meal_cost, tip_percent, tax_percent):
     # Write your code here
+    meal_cost = float(input())
+    tip_percent = int(input())
+    tax_percent = int(input())
+     
+    calcualted_tip = meal_cost * tip_percent / 100
+    calculated_tax = meal_cost * tax_percent / 100
+    total_cost = int(round(meal_cost + calcualted_tip + calculated_tax))
     
+    return total_cost
 
+print(solve(12.00, 20, 8))
 
- if __name__ == '__main__':
-    meal_cost = float(input().strip())
+    
+#if __name__ == '__main__':
+#    meal_cost = float(input().strip())
 
-    tip_percent = int(input().strip())
+#    tip_percent = int(input().strip())
 
-    tax_percent = int(input().strip())
+#    tax_percent = int(input().strip())
 
-    solve(meal_cost, tip_percent, tax_percent)
+#    solve(meal_cost, tip_percent, tax_percent)
