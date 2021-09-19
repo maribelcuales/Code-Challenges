@@ -148,10 +148,18 @@ print('M   M   CCC ')
 
 
 # ========== CLASSES ========== 
+# Defining a class
+class Animal:
+  def __init__(self, name, number_of_legs):
+    self.name = name
+    self.number_of_legs = number_of_legs
+
+# init meethod 
 # In Python, the .__init__() method is used to initialize a newly created object. It is called every time the class is instantiated.
 # The __init__() function is called automatically every time the class is being used to create a new object.
 # Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created:
 
+# Animal Class 
 class Animal:
   def __init__(self, voice):
     self.voice = voice
@@ -163,5 +171,39 @@ print(cat.voice) # Output: Meow
  
 dog = Animal('Woof') 
 print(dog.voice) # Output: Woof
+
+# Dog class - methods
+# methods are functions that are defined as part of a class. It is common practice that the first argument of any method that is part of a class is the actual object calling the method. This argument is usually called self.
+
+class Dog:
+  # Method of the class
+  def bark(self):
+    print("Ham-Ham")
+ 
+# Create a new instance
+charlie = Dog()
+ 
+# Call the method
+charlie.bark()
+# This will output "Ham-Ham"
+
+
+# class variables 
+# class variables are defined outside of all methods and have the same value for every instance of the class.
+
+# Class variables are accessed with the instance.variable or class_name.variable syntaxes.
+class my_class:
+  class_variable = "I am a Class Variable!"
+  
+x = my_class()
+y = my_class()
+ 
+print(x.class_variable) #I am a Class Variable!
+print(y.class_variable) #I am a Class Variable!
+
+
+
+
+# ========== OBJECT METHODS ==========
 
 
