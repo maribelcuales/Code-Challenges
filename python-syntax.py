@@ -5,6 +5,7 @@
 print("Hello World!")
 
 
+# ==========  VARIIABLES  ========== 
 # We've defined the variable "meal" here to the name of the food we ate for breakfast!
 meal = "An english muffin"
 # Printing out breakfast
@@ -24,12 +25,14 @@ print("Dinner:")
 print(meal)
 
 
-# Errors: SyntaxError and NameError 
+# ==========  ERRORS: SyntaxError and NameError  ========== 
 # SyntaxError
 # print('This message has mismatched quote marks!")
 # NameError 
 # print(Abracadabra)
 
+
+# ========== INT | FLOAT | LITERAL ========== 
 # int (var whole number) | float (var decimal) | literal (actual number) 
 # Define the release and runtime integer variables below:
 release_year = 2021
@@ -39,13 +42,13 @@ runtime = 180
 rating_out_of_10 = 9.5
 
 
-# Calculations
+# ========== cALCULATIONS ========== 
 # ZeroDivisionError => dividing a number by zero has no defined value, so Python treats this as an error condition
 # prints our 1700.4642857142858
 print(25 * 68 + 13 / 28)
 
 
-# Changing Numbers
+# ========== CHANING NUMBERS ========== 
 quilt_width = 8 
 quilt_length = 12
 # Prints "96"
@@ -142,5 +145,23 @@ print('M   M   CCC ')
 
 # CONTROL FLOW 
 # Boolean Expressions
+
+
+# ========== CLASSES ========== 
+# In Python, the .__init__() method is used to initialize a newly created object. It is called every time the class is instantiated.
+# The __init__() function is called automatically every time the class is being used to create a new object.
+# Use the __init__() function to assign values to object properties, or other operations that are necessary to do when the object is being created:
+
+class Animal:
+  def __init__(self, voice):
+    self.voice = voice
+ 
+# When a class instance is created, the instance variable
+# 'voice' is created and set to the input value.
+cat = Animal('Meow')
+print(cat.voice) # Output: Meow
+ 
+dog = Animal('Woof') 
+print(dog.voice) # Output: Woof
 
 
